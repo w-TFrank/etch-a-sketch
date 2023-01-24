@@ -7,12 +7,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    max-width: 1000px;
 }
 .square {
-    border: 1px solid black;
-    height: 60px;
-    width: 60px;
+    outline: 1px solid black;
 }
 .break {
     flex-basis: 100%;
