@@ -41,5 +41,10 @@ button.addEventListener('click', function() {
             i--;
         }
         createGrid(userChoice);
+        for (const square of squares) {
+            square.addEventListener('mouseover', function () {
+                square.style.background = 'black';
+            });
+        }
     }
 });
